@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+img{
+    max-width: 100%
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.bannar-section{  
+    background-image: url(../images/new-york.jpg);
+    background-color: #00000096;
+    background-position: center;
+    background-blend-mode: color;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+          
+.container{ 
+
+    width: 1200px;   
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.align-center{
+    text-align: center
+}
+
+
+.bannar-section h1 {
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bannar-section h1 span{ color:#00cccc;
+    font-weight: 800
+}
+
+.h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #607d8b75;
+    padding-left: 10px;
+    padding-right: 482px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 30px;
+}
+
+.bannar-section p{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 18px;
+    padding-top: 25px;
+    line-height: 1.6;
+}
+
+.bannar-section i{ color: #00cccc;
+    font-weight: 800
+}
+
+.Read_More{
+    background-color: #00f1f180;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+}
+
+.Read_More:hover{
+    background-color:#ff9933;
+    transition: 0.8s;
+}
+
+.Get_In_Touch{
+    background-color: #607d8ba8;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+}
+
+.Get_In_Touch:hover{
+    background-color:#ff9933;
+    transition: 0.8s;
+}
+
+header{
+    background-color: #607d8b;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 1px 3px 1px #0000000d;
+}
+
+.home:hover{
+    background-color:#00bcd4;
+    transition: 0.4s;
+        padding: 15px;
+}
+
+.about:hover{
+    background-color:#00bcd4;
+    transition: 0.4s;
+        padding: 15px;
+}
+
+.services:hover{
+    background-color:#00bcd4;
+    transition: 0.4s;
+        padding: 15px;
+}
+
+.it:hover{
+    background-color:#00bcd4;
+    transition: 0.4s;
+        padding: 15px;
+}
+
+.contact:hover{
+    background-color:#00bcd4;
+    transition: 0.4s;
+        padding: 15px;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+
+}
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 15px
+    font-weight:900;
+    padding: 10px;
+
+}
+
+header span{
+    text-transform: capitalize;
+}
+
+
+.service-box h1{
+    color:#00bcd4;
+    text-align: center;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: auto;
+}
+.service-box p{
+    color: gray;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 1.6
+}
+
+.services-details{
+    width: 50%;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    float: left;
+}
+
+.services-details h2{
+    color: black;
+    text-transform: uppercase;
+}
+
+.services-details p{
+    color: gray;
+    text-transform: lowercase;
+}
+
+.View-Details{
+    background-color: #607d8ba8;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+}
+
+.View-Details:hover{
+    background-color:#00bcd4;
+    transition: 0.8s;
+}
+
+.heads{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00bcd4
+    margin:0;
+    margin-bottom: 0;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    margin-top: -20px;
+}
+.team .team_member{
+    background: #607d8b;
+    margin: 5px;
+    margin-bottom: 50px
+    width:350px;
+
+}
+.team .team_member h3{
+    color: white;
+    font-size: 100px
+    margin-bottom:0;
+    margin-bottom:0;
+    text-transform: uppercase;
+}
+.team .team_member p.role{
+    color: white;
+    margin: 0;
+}
+
+.team .team_member p{
+    color: white;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-bottom: 20px;
+}
+
+.team .team_member .team_img{
+    padding-top: -20px;
+
+}
+
+
+.end-banner{}
+.text-box{float: left;
+    background: #607d8b;
+    width: 25%;
+    text-align: left;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.text-box h3{padding-bottom: 10px;
+        color: #fff;
+        font-weight: 700;
+        padding-top: 10Px;
+        padding-left: 50px;
+    }
+        
+
+.text-box p{
+    padding-left: 50px;
+    padding-bottom: 80px
+    color: #fff;
+}
+
+.text-box p a{text-decoration: none;
+    color: #fff;
+}
